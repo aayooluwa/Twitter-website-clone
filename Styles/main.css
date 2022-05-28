@@ -1,0 +1,80 @@
+main {
+  margin-left: 390px;
+  margin-top: 55px;
+  width: 600px;
+  height: 7000px;
+  font-family:Helvetica, sans-serif;
+  background-color: white;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: rgb(207, 204, 204);
+}
+
+.user-profile {
+  height: 50px;
+  border-radius: 30px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.tweet-box {
+  display: flex;
+  font-family: Helvetica, sans-serif;
+  width: 580px;
+}
+
+.tweet-box input {
+  margin-left: 15px;
+  font-size: 20px;
+  padding: 15px 0;
+  border: none;
+}
+
+.left img {
+  height: 19px;
+}
+
+.format {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 85px;
+  padding: 15px 0;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.right {
+  padding-right: 20px;
+}
+
+.right button{
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bolder;
+  font-size: 15px;
+  color: white;
+  background-color: black;
+}
+
+.forline {
+  
+  background-color: white;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: rgb(207, 204, 204);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(207, 204, 204);
+  z-index: 100;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}

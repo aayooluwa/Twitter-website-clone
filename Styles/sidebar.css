@@ -1,0 +1,57 @@
+.sidebar {
+  position: fixed;
+ 
+  top: 0;
+  left: 0;
+  width: 250px;
+  bottom: 0;
+  padding-left: 150px;
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: white;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: rgb(207, 204, 204);
+  z-index: 200;
+}
+
+.sidebar-content img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 30px;
+}
+
+.sidebar span {
+  margin-left: 20px;
+}
+
+.sidebar-content {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 18px;
+  width: 250px;
+ 
+}
+
+.tweet-sidebar {
+  font-weight: bolder;
+  font-size: 17px;
+  height: 52px;
+  padding-left: 75px;
+  padding-right: 75px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  background-color: black;
+  box-shadow: rgb(0 0 0 / 8%) 0px 8px 
+}
+
+.twitterlogo {
+  height: 30px;
+}
+
